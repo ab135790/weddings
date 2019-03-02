@@ -1,0 +1,101 @@
+/*服务菜单*/
+.subMenu-content-worksShow {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 0;
+    flex-grow: 1;
+}
+.subMenu-content-worksShow-nav {
+    width: 20%;
+    flex-grow:1;
+    height: 100%;
+}
+.subMenu-content-worksShow-nav-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subMenu-content-worksShow-nav .subMenu-nav-txt {
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 40px;
+    border: 2px solid transparent;
+}
+/*作品赏析*/
+.production {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.production-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subMenu-content-worksShow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size:0;
+}
+.production-content-item {
+    width: 25%;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.production-content-item:nth-child(4n) {
+    margin-right: 0;
+}
+.production-content-img {
+    width: 100%;
+    padding-top: 72%;
+    background-color: #f00;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.production-content-link {
+    display:block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.production-content-link img {
+    width: 100%;
+    height: 100%;
+}
+.production-content-txt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.production-content-txt-title {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    line-height: 140%;
+}
+.production-content-txt-describe {
+    color: #ACACAC;
+    font-size: 14px;
+}
+.production .production-pages {
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+/*关于我们*/
+.about {
+    position:relative;
+    width: 100%;
+    height: 360px;
+    margin-top: 260px;
+    background-image: url("https://photography-1065796-pic41.websiteonline.cn/upload/12141.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-content-title,
+.about-content-txt {
+    color: #fff;
+}
+.about-content-title {
+    padding-top: 10px;
+}
+.viewMore {
+    padding-bottom: 10px;
+}
+.about-content-txt {
+    text-align: center;
+    letter-spacing:5px;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.about-content .viewMore {
+    width: 118px;
+    padding: 8px;
+    color: #fff;
+    background-color: #FF0000;
+    text-align: center;
+    border-radius: 100px;
+}
+.about-copyright {
+    text-align: center;
+    color: #fff;
+}

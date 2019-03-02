@@ -1,0 +1,74 @@
+a,a:hover {
+    text-decoration: none;
+}
+.subMenu-content-nav-link:hover {
+    color: #fff;
+}
+/*worksShow、personInfo的公共部分*/
+/*-----------------------------------------*/
+/*服务菜单*/
+.subMenu {
+    position: relative;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.subMenu-box {
+    position: absolute;
+    width: 100%;
+    background-color: #2F2F34;
+    font-size: 18px;
+    left: 0;
+    top: -100px;
+    -webkit-box-shadow: rgba(0,0,0,0.6) 0 1px 4px 0;
+    box-shadow: rgba(0,0,0,0.6) 0 1px 4px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.subMenu-title {
+    text-align: left;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    text-indent: 10px;
+}
+.subMenu-title-link {
+    color: #fff;
+    padding: 0 10px;
+    line-height: 1.5;
+    display: inline-block;
+}
+/*关于我们*/
+.about {
+    margin-top: 0px;
+    height: auto;
+}
+.about-content {
+    height: auto;
+}
+.about-footer {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about-footer-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-footer-info-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.title-info {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    padding-right: 10px;
+}
+
+/*-------------------------------------------*/

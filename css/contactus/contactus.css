@@ -1,0 +1,40 @@
+.about {
+    margin-top: 0;
+}
+.address {
+    background-color: #2F2F34;
+}
+.address-box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.address-right {
+    color: #fff;
+}
+.address-right .address-title {
+    line-height: 32.4px;
+    font-size: 22px;
+    color: #ef200d;
+    margin: 5px 0 30px;
+}
+.address-manifesto {
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 28px;
+}
+.address-detail-info {
+    padding: 5px 0;
+}
+.address-detail-info .iconfont {
+    color: #ef200d;
+    padding-right: 10px;
+    font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+    .sliders {
+        margin-bottom: 0px!important;
+    }
+    .about {
+        margin-top: 0px!important;
+    }
+}

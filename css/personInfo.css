@@ -1,0 +1,59 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+.subMenu-box.personInfo {
+    height: 100px;
+}
+.personInfo-content {
+    text-align: center;
+}
+.personInfo-content-title {
+    width: 100%;
+    text-align: center;
+}
+.personInfo-content-time {
+    color: #5a5a5a;
+    min-height: 23px;
+    text-align: center;
+    font-size: 12px;
+}
+.personInfo-content-caption {
+    position: relative;
+    background: white;
+    min-height: 33px;
+    font-weight: bold;
+    line-height: 33px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    border-bottom-color: transparent;
+    border-bottom-width: 9px;
+    font-size: 20px;
+    color: #000000;
+}
+.personInfo-content-paragraph {
+    font-size: 14px;
+    line-height: 40px;
+    color: #868686;
+    text-indent: 0;
+    background-color: #f2f2f2;
+}
+.personInfo-pages {
+    text-align: center;
+    margin: 20px 0;
+}
+.personInfo-prev .personInfo-next-link:hover,
+.personInfo-next .personInfo-next-link:hover {
+    color: #23527c;
+}
+.personInfo-next-link,
+.personInfo-prev-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    width: 90px;
+    display: inline-block;
+    line-height: 12px;
+}

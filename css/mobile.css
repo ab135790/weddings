@@ -1,0 +1,183 @@
+@media screen and (max-width: 767px) {
+    /*页面头部*/
+    #page-head {
+        background-color: rgba(47, 47, 52, 1);
+        background-image: none;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+    }
+    .navbar-nav {
+        margin: 0;
+        z-index: 29;
+    }
+    .navbar-nav li {
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        float: left;
+        color: #fff;
+        margin: 0;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+    .navbar-nav li.active:after,
+    .navbar-nav li.active:hover:after {
+        border-bottom-color: #2F2F34;
+    }
+    /*轮播组件*/
+    .sliders {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+    .carousel-inner > .item > img{
+        min-height: 180px;
+    }
+    .bannerText {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        color: #fff;
+        text-align: center;
+        margin-top: -11%;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    .bannerText-title {
+        font-size: 16px;
+    }
+    .bannerText-content {
+        font-size: 12px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    /*服务菜单*/
+    .subMenu-box {
+        position: static;
+        border-radius: 0;
+        top:0;
+        left:0;
+    }
+    .subMenu-box.personInfo {
+        height: 50px;
+    }
+    .subMenu-title {
+        margin-top: 0;
+    }
+    .subMenu-title-link {
+        padding: 0;
+    }
+    .subMenu-content {
+        height: 90px;
+    }
+    .subMenu-nav-txt {
+        font-size:12px;
+        padding-top: 0;
+    }
+    .subMenu-content-worksShow {
+        height: 50px;
+    }
+    .subMenu-content-worksShow-nav .subMenu-nav-txt {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+    .subMenu-content-worksShow-nav-link {
+        position: relative;
+    }
+    .subMenu-content-worksShow-nav-link:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 1px;
+        height: 30%;
+        background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+        background-image:    -moz-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+        background-image:     -ms-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+        background-image:      -o-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+        background-image:         radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    }
+    /*作品详情内容*/
+    .personInfo-content-paragraph {
+        line-height: 26px;
+    }
+    /*作品展示*/
+    .production-content {
+        padding: 15px;
+    }
+    .production-content-item {
+        width: 100%;
+    }
+    .sliders.personInfo,
+    .sliders.worksShow {
+        margin-bottom: 0;
+    }
+    /*联系地址*/
+    .address-right .address-title {
+        margin: 10px 0;
+    }
+    .address-box-map {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .address-box {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    /*地图*/
+    #mapCard_header,
+    #mapCard_bigMap{
+        display: none;
+    }
+    /*关于我们*/
+    .about {
+        margin-top: 20px;
+        overflow: hidden;
+        height: 240px
+    }
+    .about-content {
+        height: 100%;
+    }
+    .about-content-txt {
+        padding: 0;
+    }
+    .personInfoVideo {
+        width: 100%;
+        height: 300px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 995px) {
+    /*页面头部*/
+    .navbar-nav li {
+        margin-left: 0;
+    }
+    /*轮播组件*/
+    .sliders {
+        min-height: 300px;
+    }
+    .carousel-inner > .item > img {
+        min-height: 360px;
+    }
+    /*服务菜单*/
+    .subMenu-box {
+        position: absolute;
+        top: -50px !important;
+    }
+    .subMenu-content {
+        height: 180px;
+    }
+    .production {
+        margin-top: 75px;
+    }
+    .subMenu-content-worksShow {
+        height: 100px;
+    }
+}
